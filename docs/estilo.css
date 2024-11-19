@@ -1,0 +1,701 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	font-family: Helevetica, Sans-serif;
+	background-color:#f2f2f2;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  /*  background-color: #81F7F3; */
+}
+
+header {
+    margin: 0 0 30px 0;
+    min-height: 33vh;
+    background-image: url(img/h_edificio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -581px;
+    background-attachment: fixed;
+}
+
+header:before {
+    content: "";
+    width: 100%;
+    min-height: 43vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #ad55c1);
+    opacity: 0.7;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.prueba {
+	
+	
+}
+
+.head_titulo{
+	position: relative;
+    float: left;
+    width: 100%;
+}
+
+#top_logo{
+    position: relative;
+    float: left;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    width: 100%;
+    height: 180px;
+    left: 0px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.head_titulo h1{
+    font-size: 60px;
+    /* background-color: #e4e4e44a; */
+    color: #b7b7b7;
+    letter-spacing: 7px;
+    position: relative;
+    padding: 12px;
+    font-family: 'Abril Fatface', cursive;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+.contenedor_comun	{
+position: relative;	
+     float: left; 
+    height: auto;
+    width: 100%;
+    margin: 0px 0px;
+/*	    background-color: #FFF;*/
+}
+.centro_comun	{
+position: relative;	
+/*float: left; */
+    height: auto;
+    width: 997px;
+    margin: 0px auto;
+/*	    background-color: #FFF;*/
+}
+.centro_comun_sub	{
+position: relative;	
+float: left;
+    height: 870px;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+/*	    background-color: #FFF;*/
+}
+.centro_comun_map	{
+position: relative;	
+float: left;
+    height: 870px;
+    width: 726px;
+    margin: 0px 0px 0px 0px;
+/*	    background-color: #FFF;*/
+}
+
+
+.common_center{
+position: relative;
+    height: auto;
+    width: 997px;
+    margin: 0px auto;
+ /* border-top: 8px solid #fcc000;
+    border-left: 0.25px solid #e6e6e6;
+    border-right: 0px solid #fcc000;
+    border-bottom: 0px solid #fcc000; */
+}
+
+.prueba {
+	position: relative;
+    float: left;
+    width: 100%;
+	
+}
+
+
+.Prueba h1{
+    font-size: 60px;
+   margin:7px 0px 0px 0px;
+    background-color: #e4e4e4;
+	color:#3e3e3e;
+	letter-spacing: 7px;
+    position: relative;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+	text-align:center;
+}
+
+.barradebusqueda{
+	position: relative;
+    float: left;
+    width: 100%;
+	
+	margin: 26px 0px 0px 0px;
+}
+
+.barradebusqueda_centro{   
+    position: relative;
+    /* float: left; */
+height: 54px;
+    width: 333px;
+    margin: 0px auto;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 8px 3px #212121;
+}
+.barra_bus{   
+position: relative;
+    /* float: left; */
+    height: 54px;
+    width: 333px;
+    margin: 0 0;
+    border-radius: 3px;
+    border: none;
+    font-size: 25px;
+    color: #212121;
+    padding-left: 10px;
+    box-shadow: 0px 0px 12px 3px #272727;
+}
+#lupita{
+	cursor:pointer;
+	background-image: url(img/comun/lupita1-01.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+position: absolute;
+    float: right;
+    right: 3px;
+    top: 2px;
+    width: 50px;
+	    height: 50px;
+		border: none;
+}
+#lupita_img {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    float: right;
+}
+.tamaño-letra{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+nav{
+    text-align: left;
+    padding: 30px 50px 0 0;
+    padding-left: 30px;
+}
+
+nav > a{
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    font-family: 'Staatliches', cursive;
+}
+
+section{
+    margin-top: 0;
+    margin-left: 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
+section h1{
+    color : #3e3e3e;
+    text-align: left;
+}
+section h3{
+    color : #3e3e3e;
+    text-align: left;
+}
+
+.par_title {
+    color : #3e3e3e;
+    text-align: left;
+}
+
+section .primer-parrafo{
+    position: relative;
+    font-size: 20px;
+	margin: 0px 0px 16px 0px;
+}
+
+.dos-imagen1 {
+    
+    position: relative;
+	    float: left;
+    width: 100%;
+    height: auto;
+    margin: 30px 0px 0px 0px;
+}
+
+section .what-is{
+display: inline-block; 
+    color: #8c8c8c;
+    position: relative;
+    /* top: -30px; */
+    font-family: 'Francois One', sans-serif;
+    /* margin-bottom: 40px; */
+    /* padding: 40px;*/
+}
+
+section .video{
+    position: relative;
+    width: 525px;
+    height: 400px;
+   
+}
+
+section .photo-uca2{
+    display: inline-block;
+    position: relative;
+	float: left;
+    border: 2px solid #ccc;
+}
+
+section .texto{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+}
+
+.funcion{
+    position: relative;
+    width: 210px;
+    background-color: white;
+    border: 2px solid #cccccc;
+    padding: 0 0 0 0;
+}
+
+.funcion-2{
+    position: relative;
+	line-height: 23px;
+}
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+}
+
+.dos-imagen{
+position: relative;
+   float:left;
+    width: 100%;
+	    height: 695px;
+    top: 0px;
+	margin: 40px 0px 0px 0px;
+}
+
+
+.primer_texto p{
+font-size: 15px;
+    color: #777;
+    letter-spacing: 0.5px;
+}
+
+.foto_izq {
+	
+	position: relative;
+   float:left;
+    width: 250px;
+    top: 0px;
+
+    margin: 0px 20px 0px 0px;
+}
+
+.foto_izq p {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 22px;	
+
+}
+.ini_centro {
+	
+	position: relative;
+   float:left;
+    width:446px;
+	height:100%;
+    top: 0px;
+    margin: 0px 20px 0px 0px;
+}
+
+.ini_derecha {
+	
+position: relative;
+    float: left;
+    width: 240px;
+    top: 0px;
+    margin: 0px 0px 0px 0px;
+}
+/* -------M a t e r i a s -------------------------------------------------------*/
+.primero{
+		
+position: relative;
+    float: left;
+    width: 249px;
+	    height: 300px;
+    top: 0px;
+    margin: 0px 0px 0px 0px;
+	
+}
+/* -----------------------------------------------------------------*/
+.ayuda{
+position: relative;
+    float: left;
+    margin: 0px auto;
+    width: 676px;
+}
+.h_title{
+	    color: #3e3e3e;
+}
+.h_para{
+color: #1e1e1e;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+	line-height: 22px;
+}
+/* -----------------------------------------------------------------*/
+.explicacion{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    top: 30px; 
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+}
+th{
+background-color: #bbbbbb;
+    color: #525252;
+}
+td,th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+caption{
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
+
+.first{
+    background-color: #424242;
+    color: #efefef;;
+}
+
+/* -----------------------------------------------------------------*/
+.logo_peq{
+		background-image: url(img/comun/logo_peq-02.png);
+	background-size:125px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+			    position: relative;
+		float:left;
+    top: 0px; 
+    width: 115px;
+    height: 115px;
+}
+/* -----------------------------------------------------------------*/
+.ubi_map{
+	    position: relative;
+		float:left;
+    font-size: 20px;
+    top: 0px; 
+    width: 696px;
+	
+}
+.ubi_desc{
+			    position: relative;
+		float:left;
+    font-size: 20px;
+    top: 0px; 
+    width: 100%;
+    height: auto;
+	margin:0px 0px 20px 0px;
+	    font-size: 17px;
+    letter-spacing: 0.5px;
+	line-height: 22px;
+}
+#mapa_contenedor{
+	
+		    position: relative;
+		float:left;
+    font-size: 20px;
+    top: 0px; 
+    width: 100%;
+    height: 626px;
+}
+/* -----------------------------------------------------------------*/
+.ed_txt{
+	    position: relative;
+    float: left;
+    font-size: 20px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+#form_reg {
+	  position: relative;
+    float: left;
+    font-size: 21px;
+    top: 0px;
+    width: 250px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+	background-color:#eaeaea;
+}
+#form_com {
+	  position: relative;
+    float: left;
+    font-size: 21px;
+    top: 0px;
+    width: 300px;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+	background-color:#eaeaea;
+}
+.input_comun{
+	
+	
+}
+.input_txt{
+    position: relative;
+    float: left;
+    top: 0px;
+    width: 95%;
+
+    padding-left: 7px;
+    margin: 0px 0px 19px 6px;
+    border-radius: 2px;
+    border: none;
+	
+}
+
+.label_4 {
+	  position: relative;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+	
+}
+
+.reg_titulo {
+	  position: relative;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    margin: 25px 0px 25px 0px;
+	font-weight:bold;
+	text-align:center;
+	color:#7d7e7e;
+}
+
+.reg_input {
+letter-spacing:1px;
+    height: 50px;
+}
+
+
+.reg_input_ta {
+letter-spacing:0.5px;
+	max-width:285px;
+	max-height:295px;
+}
+
+
+
+.reg_subm_button {
+	cursor:pointer;
+    position: relative;
+    float: left;
+    font-size: 21px;
+    top: 0px;
+    width: 205px;
+    height: auto;
+    margin: 0px 4px 15px 22px;
+    background-color: #55acee;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+}
+
+.img_big {
+	  position: relative;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0px 25px 0px;
+	
+}
+/* -----------------------------------------------------------------*/
+
+.comenta_izq {
+	
+	position: relative;
+   float:left;
+    width: 300px;
+    top: 0px;
+
+    margin: 0px 20px 0px 0px;
+}
+
+
+/* -----------------------------------------------------------------*/
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconos' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-gen {
+			background-image: url(img/comun/materias-01.png);
+	background-size:50px auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+			    position: relative;
+	
+	  position: relative;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+}
+/* -----------------------------------------------------------------*/
+
+.redes-container{
+
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container-der{
+	
+position: absolute;
+    float: right;
+	right:3px;
+	bottom:5px;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+
+}
+
+.redes-container-der ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes-container-der ul li a{
+    display: block;
+
+}
+
+
+.fab {
+	
+	
+}
+
+.fab fa-facebook-f {
+	
+	
+	
+}
+
+.soc_facebook{
+	cursor:pointer;
+	background-image: url(img/social/social-fc2-01-01.png);
+	background-size:40px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.soc_twitter{
+	cursor:pointer;
+	background-image: url(img/social/social-tw2-01-01.png);
+	background-size:40px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.soc_instagram{
+	cursor:pointer;
+	background-image: url(img/social/social-media-instagram-login-photography-ig.png);
+	background-size:40px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,11 @@
+// HOLA MUNDO EN C++
+
+#include <iostream>
+
+int main()
+{
+
+    std::count << "Hola, Mundo";
+    return 0;
+
+}

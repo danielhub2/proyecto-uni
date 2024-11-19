@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    bottom: auto;
+    background-color: #81F7F3;
+}
+
+header {
+    margin: 0 0 30px 0;
+    min-height: 100vh;
+    background-image: url(portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #ad55c1);
+    opacity: 0.7;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.Prueba h1{
+    font-size: 60px;
+    display: inline;
+    top: 8px;
+   margin-left: 600px;
+    background-color: greenyellow;
+    position: relative;
+    padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    width: 50px;
+    height: 100px;
+    left: -150px;
+}
+
+
+.tamaño-letra{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+nav{
+    text-align: left;
+    padding: 30px 50px 0 0;
+    padding-left: 30px;
+}
+
+nav > a{
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    font-family: 'Staatliches', cursive;
+}
+
+.primero{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-bottom: 0;
+}
+.programacion span{
+    position: relative;
+    left: 124px;
+    top: 24px;
+    background: blue;
+}
+.primer-texto{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 190px;
+}
+
+.segundo{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 120px;
+    left: 700px;
+    margin: 0;
+}
+.historia span{
+    position: relative;
+    left: 720px;
+    bottom: 200px;
+    background: blue;
+}
+.segundo-texto{
+    display: inline-block;
+    position: relative;
+    bottom: 270px;
+    left: 800px;
+}
+
+.tercero{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 120px;
+    left: 700px;
+}
+.calculo span{
+    position: relative;
+    left: 720px;
+    bottom: 200px;
+    background: blue;
+}
+.tercer-texto{
+    display: inline-block;
+    position: relative;
+    bottom: 270px;
+    left: 800px;
+}
+
+.cuarto{
+    background: blue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 330px;
+    left: 100px;
+}
+.economia span{
+    position: relative;
+    left: 124px;
+    bottom: 412px;
+    background:blue;
+    align-items: center;
+    text-align: center;
+}
+.cuarto-texto{
+    display: inline-block;
+    position: relative;
+    bottom: 490px;
+    left: 200px;
+}
